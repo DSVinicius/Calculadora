@@ -1,0 +1,71 @@
+body, html, .menu-lateral{
+	height: 100%;
+}
+.col-3{
+	background-color: #4e5766;
+	padding-right: 0px; 
+}
+.col-9{
+	background-color: #7289af;
+	padding-left: 0px;
+	text-align: center;
+}
+.formulario{
+	width: 60%;
+}
+.nav-tabs .nav-item{
+	color: #fff;
+	background-color: rgba(78, 87, 102, 0.5);
+	border-radius: 0%;
+	border-bottom-color: #fff;
+}
+.nav-tabs .nav-link.active{
+	color: #fff;
+	background-color: rgb(78, 87, 102);
+	border-bottom-color:  rgb(78, 87, 102);
+}
+.numeros{
+	justify-content: center;
+	margin-top: 10%;
+}
+.input{
+	font-size: 14px;
+	width: 150px;
+}
+.botoes{
+	display: grid;
+}
+.btn-toolbar{
+	justify-content: center;
+}
+.botao{
+	font-size: 16px;
+	width: 150px;
+	display: inline-flex;
+}
+.botao:hover{
+	font-weight: bold;
+}
+.disabled{
+	user-select: none;
+}
+.resultado{
+	float: right;
+	font-size: 30px;
+	position: absolute;
+	width: 300px;
+	top: 10%;
+	left: 55%;
+	display: inline-flex;
+}
+.erro{
+	color: #dc3545;
+	float: right;
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	width: 300px;
+	top: 10%;
+	left: 55%;
+	display: inline-flex;
+}
